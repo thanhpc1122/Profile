@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hồ sơ Khoa học Dữ liệu - Nguyễn Tấn Thành</title>
+    <title>Hồ sơ Ứng cử Lớp phó Học tập - Nguyễn Tấn Thành</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
@@ -45,7 +45,7 @@
 
         .profile-container {
             width: 95%;
-            max-width: 1200px;
+            max-width: 1000px;
             height: 90%;
             background: rgba(22, 27, 34, 0.7);
             backdrop-filter: blur(15px);
@@ -173,12 +173,12 @@
             overflow-y: auto;
         }
         
-        @media (min-width: 1024px) {
+        @media (min-width: 768px) {
             .main-content {
-                grid-template-columns: 2fr 1fr;
+                grid-template-columns: 1fr;
             }
         }
-
+        
         .section-card {
             background: var(--card-background);
             padding: 2rem;
@@ -288,65 +288,45 @@
         <!-- Phần Header với ảnh đại diện và thông tin cơ bản -->
         <div class="header-section">
             <div class="profile-picture-container">
-                <!-- Chú thích: Thay đổi đường dẫn ảnh cá nhân của bạn tại đây -->
                 <a href="avata.png"> <img src="avata.png" alt="Ảnh đại diện" class="profile-picture" id="profile-picture"> </a>
                 <div class="logo-school">
-                    <!-- Chú thích: Thay đổi đường dẫn logo trường tại đây -->
                     <a href="logo.png"> <img src="logo.png" alt="Logo Trường"> </a>
                 </div>
             </div>
             <div class="header-main-info">
                 <h1>NGUYỄN TẤN THÀNH</h1>
+                <p>Ứng cử vị trí Lớp phó Học tập</p>
                 <p>Sinh viên năm nhất - Khoa Khoa học Dữ liệu</p>
             </div>
             <div class="intro-text-container">
-                 <p class="intro-text">Chào các bạn, mình là Nguyễn Tấn Thành. Rất vui được giới thiệu với các bạn về bản thân và những kinh nghiệm mình có.</p>
+                 <p class="intro-text">Xin chào các bạn, tôi là Nguyễn Tấn Thành. Với những kinh nghiệm và điểm mạnh về tư duy logic, tôi tin mình có thể đóng góp hiệu quả cho tập thể lớp và hoàn thành tốt nhiệm vụ được giao.</p>
             </div>
         </div>
 
         <!-- Phần nội dung chính với các thẻ chi tiết -->
         <div class="main-content">
-            <!-- Thẻ Thành tích, Kỹ năng & Kinh nghiệm -->
-            <div class="section-card">
-                <h3>Thành tích, Kỹ năng & Kinh nghiệm</h3>
+            <!-- Thẻ Thành tích & Kinh nghiệm -->
+            <div class="section-card col-span-1 lg:col-span-2">
+                <h3>Thành tích & Kinh nghiệm</h3>
                 <ul>
-                    <li>Lúc trước mình học trường THPT TX Phước Long.</li>
-                    <li>
-                        Điểm các môn cụ thể:
-                        <ul class="sub-list">
-                            <li><span class="highlight">Lớp 10:</span> Toán 6.7, Lý 8.2, Hóa 8.7</li>
-                            <li><span class="highlight">Lớp 11:</span> Toán 8.7, Lý 8.3, Hóa 8.3</li>
-                            <li><span class="highlight">Lớp 12:</span> Toán 9.0, Lý 9.0, Hóa 8.3</li>
-                        </ul>
-                    </li>
-                    <li>Đạt <span class="highlight">Huy chương Đồng</span> cuộc thi Olympic 19/5.</li>
-                    <li>Thành thạo cơ bản <span class="highlight">Git và GitHub</span> cá nhân.</li>
-                    <li>Có kinh nghiệm làm việc nhóm với <span class="highlight">Git cơ bản</span>.</li>
-                    <li>Có khả năng lập trình tốt trên các ngôn ngữ như <span class="highlight">C++ và Python</span> (thành thạo ở mức làm được bài tập code thi đấu trên các ngôn ngữ đó).</li>
+                    <li>Đạt thành tích khá-giỏi ở 3 năm cấp ba.</li>
+                    <a href="huyChuong.jpg"> <li>Đạt <span class="highlight">Huy chương Đồng</span> cuộc thi Olympic 19/5 môn tin học.</li> </a>
+                    <li>Có kinh nghiệm làm việc nhóm, vì là từng đảm nhận vị trí tổ trưởng,nhóm trưởng.</li>
+                    <a href="https://github.com/thanhpc1122?tab=repositories"> <li>Thành thạo cơ bản <span class="highlight">Git và GitHub</span> cá nhân ,đồng thời có thể lập trình cơ bản trên các ngôn ngữ <span class="highlight">C++, Python và front-end cơ bản</span>.</li> </a>
                 </ul>
             </div>
             
-            <!-- Thẻ Năng lực & Điểm yếu -->
-            <div class="section-card">
-                <h3>Năng lực & Điểm yếu</h3>
-                <ul>
-                    <li><span class="highlight">Điểm mạnh:</span> Có thế mạnh về tư duy logic và khả năng tiếp thu kiến thức nhanh qua các ví dụ thực tế.</li>
-                    <li><span class="highlight">Điểm yếu:</span> Kỹ năng giao tiếp còn kém, khá dở các môn liên quan đến văn học.</li>
-                    <li>Về IELTS, mình đang học tại trung tâm TIW và mình sẽ cố gắng cải thiện nó trong thời gian sớm nhất.</li>
-                </ul>
-            </div>
-
             <!-- Thẻ Lời hứa chân thành -->
             <div class="section-card col-span-1 lg:col-span-2">
-                <h3>Lời hứa chân thành</h3>
-                <p class="mb-4">Nếu được tin tưởng bầu chọn mình làm Lớp phó học tập, mình hứa sẽ mang đến những giá trị và kế hoạch hành động cụ thể sau:</p>
+                <h3>Cam kết hành động</h3>
+                <p class="mb-4">Nếu được tin tưởng bầu chọn mình làm Lớp phó học tập, mình cam kết sẽ :</p>
                 <ul class="promise-list">
                     <li>Hoàn thành tốt mọi nhiệm vụ học tập do cố vấn và ban cán sự giao phó.</li>
-                    <li>Chủ động chia sẻ và học hỏi, hỗ trợ, giải đáp thắc mắc bài học và kết nối các bạn với nguồn tài liệu, thầy cô khi cần (Đây cũng là phần mình tâm đắc nhất).</li>
-                    <li>Truyền đạt nhanh chóng, chính xác thông tin học tập (lịch thi, tài liệu) từ nhà trường, thầy cô đến các bạn.</li>
-                    <li>Đảm bảo một môi trường học tập công bằng, khách quan cho mọi thành viên trong lớp.</li>
+                    <li>Chủ động chia sẻ và học hỏi, hỗ trợ, giải đáp thắc mắc bài học và kết nối các bạn với nguồn tài liệu, thầy cô khi cần .</li>
+                    <li>Truyền đạt nhanh chóng, chính xác thông tin học tập từ nhà trường đến các bạn.</li>
+                    <li>Đảm bảo một môi trường học tập công bằng, khách quan.</li>
                     <li>Phối hợp tổ chức các hoạt động học tập bổ ích (nhóm, ôn tập).</li>
-                    <li>Định hướng và cùng lớp nỗ lực để đạt được thành tích học tập tốt nhất, góp phần "kéo lớp đi lên" trong học tập.</li>
+                    <li>Định hướng và cùng lớp nỗ lực để đạt thành tích học tập tốt nhất.</li>
                 </ul>
             </div>
         </div>
@@ -355,7 +335,6 @@
     <!-- Modal (Pop-up) -->
     <div id="image-modal" class="modal">
         <span class="modal-loading">Đang tải ảnh...</span>
-        <!-- Chú thích: Thay đổi đường dẫn ảnh gốc hình chữ nhật tại đây -->
         <img class="modal-content" id="modal-image" src="uploaded:image_57591c.png-2f1a46ca-5ec6-41e0-a053-b3e32b606611">
     </div>
 
